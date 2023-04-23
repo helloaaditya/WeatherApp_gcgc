@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -106,20 +105,35 @@ button {
 
 @media only screen and (max-width: 798px) {
   .container {
-    position:static;
+    position: static;
     width: 80%;
-    height: 300px;
+    height: 260px;
     background: #FFFFFF;
     border-radius: 10px;
     margin-left: 10%;
     margin-top: 2rem;
   }
 
-  h1 {
-    font-family: 'Poppins';
-    font-style: normal;
+  .container h1 {
     text-align: center;
     color: #4B77BE;
+    font-size: 30px;
+  }
+
+  .temperature {
+    font-family: 'Poppins';
+    font-size: 35px;
+    text-align: center;
+    color: #3F3D56;
+    margin-top: -1rem;
+  }
+
+  .location {
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: center;
+    color: #4B77BE;
+    margin-top: -1rem;
   }
 
   .city-form {
@@ -142,9 +156,10 @@ button {
   }
 
   .weather-illustration {
-    width: 80%;
+    position: static;
+    width: 90%;
     height: 264.71px;
-    top: 30rem;
-    left: 10%;
+    margin-top: 10rem;
+    margin-left: 5%;
   }
 }
