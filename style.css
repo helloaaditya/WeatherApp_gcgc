@@ -106,13 +106,13 @@ button {
 
 @media only screen and (max-width: 798px) {
   .container {
+    position:static;
     width: 80%;
     height: 270px;
     background: #FFFFFF;
     border-radius: 10px;
-    position: absolute;
-    left: 10%;
-    top: 2rem;
+    margin-left: 10%;
+    margin-top: 2rem;
   }
 
   h1 {
@@ -124,30 +124,29 @@ button {
   }
 
   .city-form {
-    position: absolute;
-    top: 18rem;
-    width: 358px;
+    top: 20rem;
+    width: 80%;
     height: 74px;
+
   }
 
   input[type="text"] {
     padding: 0.5rem;
-    width: 184px;
+    width: 50%;
     height: 42px;
     border-radius: 5px;
   }
 
-  button {
-    width: 129px;
+  .city-form button {
+    width: 35%;
     height: 42px;
   }
 
   .weather-illustration {
-    position: absolute;
     align-items: center;
-    width: 358px;
+    width: 80%;
     height: 264.71px;
-    top: 485px;
-    left: 3rem;
+    top: 30rem;
+    left: 10%;
   }
 }
