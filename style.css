@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -15,6 +16,8 @@ body {
   position: absolute;
   width: 660px;
   height: 310px;
+  left: 60px;
+  top: 180px;
   background: #FFFFFF;
   border-radius: 10px;
 }
@@ -85,6 +88,8 @@ input[type="text"] {
 button {
   width: 204px;
   height: 64px;
+  left: 500px;
+  top: 650px;
   background: #4B77BE;
   border-radius: 5px;
 }
@@ -93,17 +98,21 @@ button {
   position: absolute;
   width: 549.68px;
   height: 406.44px;
+  left: 950px;
+  top: 220px;
   padding-bottom: 5rem;
 }
 
-@media only screen and (max-width: 798px)  {
+
+@media only screen and (max-width: 798px) {
   .container {
     width: 358px;
     height: 270px;
     background: #FFFFFF;
     border-radius: 10px;
-    margin-left: 2.5rem;
-    top:2rem;
+    position: absolute;
+    left: 2.8rem;
+    top: 2rem;
   }
 
   h1 {
@@ -116,7 +125,7 @@ button {
 
   .city-form {
     position: absolute;
-    top:18rem;
+    top: 18rem;
     width: 358px;
     height: 74px;
   }
@@ -138,7 +147,7 @@ button {
     align-items: center;
     width: 358px;
     height: 264.71px;
-    top: 455px;
+    top: 485px;
     left: 2rem;
   }
 }
