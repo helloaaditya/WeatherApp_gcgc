@@ -108,7 +108,7 @@ button {
   .container {
     position:static;
     width: 80%;
-    height: 270px;
+    height: 300px;
     background: #FFFFFF;
     border-radius: 10px;
     margin-left: 10%;
@@ -124,10 +124,11 @@ button {
   }
 
   .city-form {
-    top: 20rem;
-    width: 80%;
+    position: static;
+    margin-top: 1rem;
+    width: 100%;
     height: 74px;
-
+    box-sizing: border-box;
   }
 
   input[type="text"] {
@@ -143,7 +144,6 @@ button {
   }
 
   .weather-illustration {
-    align-items: center;
     width: 80%;
     height: 264.71px;
     top: 30rem;
