@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -107,11 +106,10 @@ button {
   .container {
     width: 358px;
     height: 270px;
-    align-items: center;
     background: #FFFFFF;
     border-radius: 10px;
-    margin-left: -20px;
-    margin-top: -8rem;
+    margin-left: -40px;
+    top:2rem;
   }
 
   h1 {
@@ -147,7 +145,7 @@ button {
   .weather-illustration {
     width: 358px;
     height: 264.71px;
-    left: 32px;
-    top: 456px;
+    left: 20px;
+    top: 420px;
   }
 }
