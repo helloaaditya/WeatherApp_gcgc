@@ -106,12 +106,12 @@ button {
 
 @media only screen and (max-width: 798px) {
   .container {
-    width: 358px;
+    width: 80%;
     height: 270px;
     background: #FFFFFF;
     border-radius: 10px;
     position: absolute;
-    left: 2.8rem;
+    left: 10%;
     top: 2rem;
   }
 
