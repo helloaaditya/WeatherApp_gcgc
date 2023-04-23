@@ -103,9 +103,7 @@ button {
   padding-bottom: 5rem;
 }
 
-@media screen and (max-width: 768px) {
-
-
+@media only screen and (max-width: 798px)  {
   .container {
     width: 358px;
     height: 270px;
@@ -124,30 +122,13 @@ button {
     color: #4B77BE;
   }
 
-  .temperature {
-    font-family: 'Poppins';
-    font-style: normal;
-    text-align: center;
-    color: #3F3D56;
-  }
-
-  .location {
-    font-family: 'Poppins';
-    font-style: normal;
-    text-align: center;
-    color: #4B77BE;
-  }
-
   .city-form {
-    background: #FFFFFF;
     width: 358px;
     height: 74px;
     top: 280px;
   }
 
   input[type="text"] {
-    box-sizing: border-box;
-    border: 1px solid #000000;
     padding: 0.5rem;
     width: 184px;
     height: 42px;
@@ -157,8 +138,6 @@ button {
   }
 
   button {
-    background: #4B77BE;
-    border-radius: 5px;
     width: 129px;
     height: 42px;
     left: 224px;
