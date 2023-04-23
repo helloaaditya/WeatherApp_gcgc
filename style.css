@@ -119,13 +119,11 @@ button {
     font-family: 'Poppins';
     font-style: normal;
     text-align: center;
-    padding: 20px;
     color: #4B77BE;
   }
 
   .city-form {
     position: static;
-    margin-top: 1rem;
     width: 100%;
     height: 74px;
     box-sizing: border-box;
