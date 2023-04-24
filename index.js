@@ -24,6 +24,9 @@ function getWeatherData(position) {
         // Update UI with current city and weather data
         document.querySelector(".location").textContent = city;
         updateUI(temperature, description, icon, data);
+
+        // for loader 
+        document.querySelector("#loading_spinner").style.display = "none";
       })
       .catch(error => console.log(error));
   }
