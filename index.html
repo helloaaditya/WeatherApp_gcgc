@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Aditya Prajapati">
-    <meta charset="utf-8">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
 
-    <div class="container">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aditya Prajapati">
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <div class="weather-app">
-        <h1>The Weather App</h1>
-      </div>
+<body>
 
-      <div class="loader_parent">
-        <div id="loading_spinner">
-          <img src="./loader.gif" alt="">
-        </div>
-      </div>
+  <div class="container">
 
-      <div class="temperature"></div>
-      <div class="location"></div>
-
-      <div class="city-form">
-        <input type="text" id="city-input" placeholder="Enter a city name">
-        <button>Get Weather</button>
+    <div class="weather-app">
+      <h1>The Weather App</h1>
+    </div>
+    <div class="loader_parent">
+      <div id="loading_spinner">
+        <img src="./loader.gif" alt="">
       </div>
     </div>
 
-    <div class="weather-illustration">
-        <img src="weather-illustration.png" alt="cloudy" height="100%" width="100%">
+    <div class="temperature"></div>
+    <div class="icon"></div>
+    <div class="description"></div>
+    <div class="location"></div>
+
+    <div class="city-form">
+      <input type="text" id="city-input" placeholder="Enter a city name">
+      <button>Get Weather</button>
     </div>
-    <script src="index.js"></script>
-  </body>
+  </div>
+
+  <div class="weather-illustration">
+    <img src="weather-illustration.png" alt="cloudy" height="100%" width="100%">
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>

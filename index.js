@@ -1,12 +1,14 @@
 const api_key = "5717bd65a240df95236c9074f5d570a9";
 
 function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(getWeatherData);
-  } else {
-    console.log("Geolocation is not supported by this browser.");
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(getWeatherData);
+    } else {
+      console.log("Geolocation is not supported by this browser.");
+    }
   }
-}
+
+  
 
 function getWeatherData(position) {
     const lat = position.coords.latitude;
@@ -63,6 +65,16 @@ function getWeatherByCity() {
     const temperatureElement = document.querySelector(".temperature");
     if (temperatureElement) {
       temperatureElement.textContent = `${temperature}°C`;
+    }
+
+    const descriptionElement = document.querySelector(".description");
+    if (descriptionElement) {
+      descriptionElement.textContent = description;
+    }
+  
+    const iconElement = document.querySelector(".icon");
+    if (iconElement) {
+      iconElement.innerHTML = `<img src="${iconUrl}" alt="${description}">`;
     }
   }
   
