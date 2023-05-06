@@ -123,6 +123,8 @@ button {
   margin-top: 10rem;
 }
 
+
+
 .forecast {
   width: 630px;
   display: flex;
@@ -218,39 +220,6 @@ button {
     margin-top: 170%;
     margin-left: 5%;
   }
-  .loader_parent {
-    position: relative;
-    margin-top: 1rem;
-  }
-  
-  #loading_spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  #loading_spinner img {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .loader_parent {
-    position: relative;
-    margin-top: 1rem;
-  }
-  
-  #loading_spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  #loading_spinner img {
-    width: 80px;
-    height: 80px;
-  }
 
   .forecast{
     position: static;
@@ -285,6 +254,24 @@ button {
   }
 
 }
+
+.loader_parent {
+  position: relative;
+  margin-top: 1rem;
+}
+
+#loading_spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loading_spinner img {
+  width: 80px;
+  height: 80px;
+}
+
 
 
 
