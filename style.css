@@ -148,7 +148,7 @@ button {
     width: 100px;
     height: 100px;
     left: 55%;
-    top: 25%;
+    top: 30%;
     transform: translate(-50%, -50%);
   }
 
@@ -156,7 +156,7 @@ button {
     width: 100%;
     height: 100px;
     left: 50%;
-    top: 30%;
+    top: 35%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 28px;
@@ -175,9 +175,9 @@ button {
   .city-form {
     position: static;
     width: 100%;
-    height: 74px;
+    height: 75px;
     box-sizing: border-box;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   input[type="text"] {
