@@ -9,33 +9,60 @@
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <div class="container">
-  
-      <div class="weather-app">
-        <h1>The Weather App</h1>
+<body>
+  <div class="container">
+    <div class="weather-app">
+      <h1>The Weather App</h1>
+    </div>
+    <div class="loader_parent">
+      <div id="loading_spinner">
+        <img src="./loader.gif" alt="">
       </div>
-      <div class="loader_parent">
-        <div id="loading_spinner">
-          <img src="./loader.gif" alt="">
-        </div>
-      </div>
-  
+    </div>
+    <div class="current-weather">
       <div class="temperature"></div>
       <div class="icon"></div>
       <div class="description"></div>
       <div class="location"></div>
-  
-      <div class="city-form">
-        <input type="text" id="city-input" placeholder="Enter a city name">
-        <button>Get Weather</button>
+    </div>
+
+    <div class="city-form">
+      <input type="text" id="city-input" placeholder="Enter a city name">
+      <button>Get Weather</button>
+    </div>
+
+    <div class="forecast">
+      <div class="forecast-day">
+        <div class="forecast-date"></div>
+        <div class="forecast-icon"></div>
+        <div class="forecast-temperature"></div>
+      </div>
+      <div class="forecast-day">
+        <div class="forecast-date"></div>
+        <div class="forecast-icon"></div>
+        <div class="forecast-temperature"></div>
+      </div>
+      <div class="forecast-day">
+        <div class="forecast-date"></div>
+        <div class="forecast-icon"></div>
+        <div class="forecast-temperature"></div>
+      </div>
+      <div class="forecast-day">
+        <div class="forecast-date"></div>
+        <div class="forecast-icon"></div>
+        <div class="forecast-temperature"></div>
+      </div>
+      <div class="forecast-day">
+        <div class="forecast-date"></div>
+        <div class="forecast-icon"></div>
+        <div class="forecast-temperature"></div>
       </div>
     </div>
-  
-    <div class="weather-illustration">
-      <img src="weather-illustration.png" alt="cloudy" height="100%" width="100%">
-    </div>
-    <script src="index.js"></script>
-  </body>
-<html>
+  </div>
 
+  <div class="weather-illustration">
+    <img src="weather-illustration.png" alt="cloudy" height="100%" width="100%">
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
